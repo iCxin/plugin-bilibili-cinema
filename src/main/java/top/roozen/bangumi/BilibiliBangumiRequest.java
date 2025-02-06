@@ -22,7 +22,7 @@ public class BilibiliBangumiRequest {
 
     private boolean useWebp;
 
-    private int typeNum;
+    private int typeNum = 2;
     //pageSize
     @Builder.Default()
     private int ps = 30;
